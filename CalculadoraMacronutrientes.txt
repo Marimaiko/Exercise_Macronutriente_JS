@@ -1,0 +1,94 @@
+Problema: Calcular macronutrientes
+Solução: Calculadora
+_________________________________________________________________________
+
+Sistema: Seja bem vindo (a)! Informe o seu nome para continuar:
+	Usuário: (Digita o nome)
+Sistema: Prazer em conhecê-lo(a) [input do usuário]
+Sistema: Por favor, me informe a sua idade em números:
+	Usuário: (Digita idade)
+Sistema: Obrigado! Agora me informe seu peso:
+	Usuário: (Digita peso)
+Sistema: Para finalizar, me informe se você é homem ou mulher? (M) para Masculino e (F) para Feminino
+	Usuário: (Digita sexo)
+Sistema: Obrigado! Aguarde enquanto gero os dados...
+
+Sistema: Se sexo = M e idade maior ou igual a 10 e menor ou igual a 18
+		calcular: 17,5 * (peso) + 651 = TMB
+Sistema: Se sexo = M e idade maior ou igual a 19 e menor ou igual a 30
+		calcular: 15,3 * (peso) + 679 = TMB
+Sistema: Se sexo = M e idade maior ou igual a 31 e menor ou igual a 60
+		calcular: 8,7 * (peso) + 879 = TMB
+Sistema: Se não
+		calcular: 13,5 * (peso) + 487 = TMB
+  
+Sistema: Se sexo = M e idade menor que 10
+        Imprimir: Você ainda é muito novo para esses dados!
+
+
+Sistema: Se sexo = F e idade maior ou igual a 10 e menor ou igual a 18
+		calcular: 12,2 * (peso) + 746 = TMB
+Sistema: Se sexo = F e idade maior ou igual a 19 e menor ou igual a 30
+		calcular: 14,7 * (peso) + 496 = TMB
+Sistema: Se sexo = F e idade maior ou igual a 31 e menor ou igual a 60
+		calcular: 8,7 * (peso) + 829 = TMB
+Sistema: Se não
+		calcular: 10,5 * (peso) + 596 = TMB
+
+Sistema: Se sexo = F e idade menor que 10
+        Imprimir: Você ainda é muito novo para esses dados!
+
+
+Sistema:(Gerar TMB)
+Sistema: Sua taxa metabólica basal é de (TMB)
+Sistema: Para dar continuidade, digite o número da opção que mais lhe define:
+        Opção 1-Fica a maior parte do tempo sentada e não pratica atividades físicas programadas.
+
+        Opção 2: Dia movimentado – dirige, cozinha, caminha até o ponto de ônibus, mas sem atividades físicas programadas OU dia-a-dia sedentário e exercícios físicos três vezes por semana, cerca de 30 minutos por dia.
+
+        Opção 3: Rotina movimentada e atividades físicas três vezes por semana, cerca de 30 minutos por dia.
+
+        Opção 4: De uma a duas horas e meia de atividades físicas diárias.
+
+        Opção 5: Atividade física diária por mais de três horas.
+
+	Usuário: (Digita opção)
+
+Sistema: Se sexo = M e opção = 1
+		calcular: TMB*1,2 = calorias
+Sistema: Se sexo = M e opção = 2
+		calcular: TMB*1,4 = calorias
+Sistema: Se sexo = M e opção = 3
+		calcular: TMB*1,5 = calorias
+Sistema: Se sexo = M e opção = 4
+		calcular: TMB*1,6 = calorias
+Sistema: Se sexo = M e opção = 5
+		calcular: TMB*1,8 = calorias
+        Se não 
+        Imprimir=Opção inválida
+
+
+Sistema: Se sexo = F e opção = 1
+		calcular: TMB*1,2 = calorias        
+Sistema: Se sexo = F e opção = 2
+		calcular: TMB*1,3 = calorias   
+Sistema: Se sexo = F e opção = 3
+		calcular: TMB*1,45 = calorias   
+Sistema: Se sexo = F e opção = 4
+		calcular: TMB*1,5 = calorias   
+Sistema: Se sexo = F e opção = 5
+		calcular: TMB*1,7 = calorias           
+
+
+Sistema: Seu organismo necessita de (calorias) calorias diariamente
+
+
+
+
+[...fim...]
+
+Sistema: Se sexo = homem e idade menor que 10
+
+Imprimir: Você ainda é muito novo para esses dados!
+
+[...fim...]
